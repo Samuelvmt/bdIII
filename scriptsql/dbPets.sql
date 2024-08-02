@@ -13,5 +13,14 @@ nome varchar(50) not null,
 senha varchar(10) not null,
 primary key(cod_usu)
 );
+
+create table tbfuncionarios(
+cod_func int not null auto_increment,
+nome varchar(100) not null,
+email varchar(100)
+telcel char(10),
+);
 -- visualizando tabelas
 show tables;
+-- visualizando a estrutura das tabelas
+desc tbusuarios;
